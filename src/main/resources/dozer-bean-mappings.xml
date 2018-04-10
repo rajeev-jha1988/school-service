@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<mapping map-id="studentDto">
+		<class-a> com.raj.school.dto.StudentDto</class-a>
+		<class-b>com.raj.school.model.Student</class-b>
+		<field>
+			<a>id</a>
+			<b>id</b>
+		</field>
+		<field>
+			<a>dob</a>
+			<b>dob</b>
+		</field>
+		<field>
+			<a>doj</a>
+			<b>doj</b>
+		</field>
+		<field>
+			<a>fname</a>
+			<b>fname</b>
+		</field>
+		<field>
+			<a>lastname</a>
+			<b>lastname</b>
+		</field>
+		<field>
+			<a>midname</a>
+			<b>midname</b>
+		</field>
+		<field>
+			<a>phone</a>
+			<b>phone</b>
+		</field>
+		<field>
+			<a>session</a>
+			<b>session</b>
+		</field>
+		<field>
+			<a>fullName</a>
+			<b>fullName</b>
+		</field>
+	
+	</mapping>
+</mappings>
