@@ -137,4 +137,10 @@ public class Student implements Serializable {
 		this.courses = courses;
 	}
 
+	public String getFullName() {
+		return fullName;
+	}
+	
+	
+
 }

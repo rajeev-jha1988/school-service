@@ -4,6 +4,7 @@
 package com.raj.school.common;
 
 import java.util.Date;
+import java.util.Set;
 
 import com.raj.school.dto.CourseDto;
 
@@ -23,7 +24,7 @@ public class SchoolDto {
 	private String phone;
 	private String session;
 	private String fullName;
-	private CourseDto courseDto;
+	private Set<CourseDto> courseDto;
 	public int getId() {
 		return id;
 	}
@@ -78,11 +79,12 @@ public class SchoolDto {
 	public void setFullName(String fullName) {
 		this.fullName = fullName;
 	}
-	public CourseDto getCourseDto() {
+	public Set<CourseDto> getCourseDto() {
 		return courseDto;
 	}
-	public void setCourseDto(CourseDto courseDto) {
+	public void setCourseDto(Set<CourseDto> courseDto) {
 		this.courseDto = courseDto;
 	}
+
 	
 }
