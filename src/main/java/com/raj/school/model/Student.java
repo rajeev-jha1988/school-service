@@ -40,11 +40,15 @@ public class Student implements Serializable {
 
 	@Column(name="MIDNAME")
 	private String midname;
-
+	
+	@Column(name="PHONE")
 	private String phone;
 
 	@Column(name="SESSION")
 	private String session;
+	
+	@Column(name="STUDENTCODE")
+	private String studentCode;
 	
 	@Formula(" FNAME+MIDNAME+LASTNAME ")
 	private String fullName;
@@ -139,6 +143,18 @@ public class Student implements Serializable {
 
 	public String getFullName() {
 		return fullName;
+	}
+
+	public String getStudentCode() {
+		return studentCode;
+	}
+
+	public void setStudentCode(String studentCode) {
+		this.studentCode = studentCode;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
 	}
 	
 	
